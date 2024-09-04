@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="px-3 md:px-24">
-      <div className="flex justify-between items-center p-3 md:px-20 my-5 text-white">
+      <div className="flex justify-between items-center p-3 md:px-20 text-white">
         <Link href="/" className=" w-auto flex items-center">
           <Image src={Logo} alt="atlas-logo" className="w-auto" />
         </Link>
