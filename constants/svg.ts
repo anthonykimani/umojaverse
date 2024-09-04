@@ -3,8 +3,9 @@ import Logo from "@/public/svg/logo.svg"
 import StarBg from "@/public/svg/star.svg"
 import Rocket from "@/public/svg/rocket.svg"
 import Community from "@/public/svg/community.svg"
-import Courses from "@/public/svg/courses.svg"
+import CoursesSvg from "@/public/svg/courses.svg"
 import SocialMedia from "@/public/svg/social-media.svg"
+import Location from "@/public/svg/location.svg"
 
 export {
     Universe,
@@ -12,6 +13,7 @@ export {
     StarBg,
     Rocket,
     Community,
-    Courses,
-    SocialMedia
+    CoursesSvg,
+    SocialMedia,
+    Location
 }

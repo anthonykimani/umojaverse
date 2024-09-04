@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <main className="flex flex-col justify-around sm:justify-start items-center text-center bg-hero-bg bg-no-repeat bg-center bg-cover overflow-hidden">
+    <main className="flex flex-col justify-around sm:justify-start items-center text-center bg-hero-bg bg-no-repeat bg-center bg-cover overflow-hidden px-3 md:px-24">
       <h1 className="bg-gradient-to-b from-[#ffffff] to-[#ffffff70] bg-clip-text text-transparent text-4xl md:text-[50px] lg:text-[60px] font-clashDisplay font-semibold flex flex-col justify-around leading-[40px] lg:leading-[70px] mt-[100px]">
         Platform for tech builders in Web3, Blockchain, Metaverse, and AI
       </h1>
