@@ -8,7 +8,7 @@ const HeroSection = () => {
       <h1 className="bg-gradient-to-b from-[#ffffff] to-[#ffffff70] bg-clip-text text-transparent text-4xl md:text-[50px] lg:text-[60px] font-clashDisplay font-semibold flex flex-col justify-around leading-[40px] lg:leading-[70px] mt-[100px]">
         Platform for tech builders in Web3, Blockchain, Metaverse, and AI
       </h1>
-      <span className="text-[#5F5F7D] text-base md:text-lg font-DM my-[50px]">
+      <span className="text-[#5F5F7D] text-base md:text-lg font-DM my-[50px] w-full md:w-[900px]">
         At X we believe in the transformative power of blockchain technology and
         its ability to shape the future. Our mission is to introduce noobs to
         the world of blockchain, providing education and resources that extend

@@ -5,7 +5,7 @@ import React from 'react'
 
 const BlogsPage = () => {
   return (
-    <section>
+    <section className='bg-star-bg px-2 md:px-10'>
         <Navbar />
         <Blogs />
         <Footer />

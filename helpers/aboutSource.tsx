@@ -10,7 +10,7 @@ export const aboutSource = [
         description: " The Incubation Hub is the core platform that nurtures and accelerates the development of innovative software products. As the parent platform, it provides essential resources, mentorship, and strategic guidance to transform ideas into market-ready solutions.",
         action: "Apply to the Program",
         layoutDirection: true,
-        overview: <Courses />
+        overview: null
     },
     {
         img: Community,

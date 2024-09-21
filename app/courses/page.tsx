@@ -6,7 +6,7 @@ import React from 'react'
 
 const CoursesPage = () => {
   return (
-    <section className='bg-star-bg'>
+    <section className='bg-star-bg px-2 md:px-10'>
         <Navbar />
         <Courses />
         <Footer />

@@ -7,8 +7,9 @@ import { PortableText } from "next-sanity";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
+
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export const revalidate = 30;
 
@@ -102,11 +103,11 @@ const CourseStructure = async ({ params }: { params: { slug: string } }) => {
 
   return (
     course.content && (
-      <>
+      <div className="bg-star-bg px-4 md:px-[20px]">
         <Navbar />
-        <section className="bg-white font-DM md:py-10 sm:px-[30px] xl:px-[100px]">
+        <section className="font-DM md:py-10 sm:px-[30px] xl:px-[100px]">
           <article className="flex flex-col items-center py-5">
-            <h2 className="text-black text-center font-bold text-3xl md:text-4xl lg:text-5xl mb-5">
+            <h2 className="text-white text-center font-bold text-3xl md:text-4xl lg:text-5xl mb-5">
               {course.title}
             </h2>
             <Image
@@ -117,8 +118,8 @@ const CourseStructure = async ({ params }: { params: { slug: string } }) => {
               className="h-[200px] sm:h-[500px] w-[95%] sm:w-full object-cover my-[20px] rounded-md"
             />
           </article>
-          <div className="flex flex-col-reverse md:flex-row prose prose-base sm:prose-xl min-w-full text-black prose-invert prose-li:marker:text-primary prose-a:text-primary">
-            <div className="mx-[10px] md:mx-[0px] rounded-xl p-4 sm:p-5 md:p-10 bg-slate-200 bg-opacity-50">
+          <div className="flex flex-col-reverse md:flex-row prose prose-base sm:prose-xl min-w-full text-white prose-invert prose-li:marker:text-primary prose-a:text-primary">
+            <div className="mx-[10px] md:mx-[0px] rounded-xl p-4 sm:p-5 md:p-10 bg-[#a5a5a518]">
               <PortableText
                 value={course.content}
                 components={myPortableTextComponents}
@@ -128,7 +129,7 @@ const CourseStructure = async ({ params }: { params: { slug: string } }) => {
           </div>
         </section>
         <Footer />
-      </>
+      </div>
     )
   );
 };
@@ -138,9 +139,9 @@ export default CourseStructure;
 const Toc = ({ headings }: any) => {
   return (
     <div className="min-w-[30%] md:ml-5 mx-10">
-      <h2 className="text-black text-xl sm:text-2xl">Table of Contents</h2>
+      <h2 className="text-white text-xl sm:text-2xl">Table of Contents</h2>
       <nav className="mt-10">
-        <ul className="text-black">
+        <ul className="text-white">
           {headings?.map((heading: any) => {
             return (
               <li key={`#${heading?._key}`} className="mb-2">

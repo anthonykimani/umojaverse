@@ -6,8 +6,9 @@ import { slugify } from "@/utils/helpers";
 import { PortableText } from "next-sanity";
 import Image from "next/image";
 import React from "react";
-import Navbar from "@/components/Navbar";
+
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 
 export const revalidate = 30;
