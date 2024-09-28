@@ -28,7 +28,7 @@ async function getData() {
 const Blogs = async () => {
   const data = await getData();
   return (
-    <div className="bg-[#17121C] py-24 sm:py-32 font-DM rounded-2xl">
+    <div className=" py-24 sm:py-32 font-DM rounded-2xl">
       <div className="mx-auto px-6 lg:px-8">
         <div className="mx-auto text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Blogs from the Community</h2>

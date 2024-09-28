@@ -40,7 +40,7 @@ const Events = async () => {
         <h2 className="text-white text-center text-3xl xsm:text-[40px] font-bold my-10 ">
           Events around the community
         </h2>
-        <h4 className="text-[#596780ab] text-center text-base">
+        <h4 className="text-[#b3b3b3fc] text-center text-base">
         The Community Hub is a vibrant platform designed to connect, engage, and empower users, developers, and enthusiasts. It serves as a central gathering place for sharing knowledge, collaborating on projects, and fostering meaningful interactions
         </h4>
       </article>
@@ -58,7 +58,7 @@ const Events = async () => {
                   alt=""
                   width={0}
                   height={0}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full"
                 />
               )}
             </div>

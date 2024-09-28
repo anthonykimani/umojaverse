@@ -38,8 +38,8 @@ export default function Navbar() {
                     className=""
                     src={Logo}
                     alt="Your Company"
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                   />
                 </Link>
                 <div className="hidden lg:ml-6 md:flex justify-center w-full">

@@ -15,17 +15,17 @@ const HeroSection = () => {
         the world of blockchain, providing education and resources that extend
         beyond Bitcoin.
       </span>
-      <button className="py-2 px-6  rounded-full  bg-gradient-to-br from-[#8BC2FF] to-[#2D55FF] font-semibold hover:bg-white hover:cursor-pointer">
+      <button className="py-2 px-6 rounded-full bg-gradient-to-br from-[#8BC2FF] to-[#2D55FF] font-semibold hover:bg-white hover:cursor-pointer mb-10">
         Join Umojaverse
       </button>
       <motion.div
-      animate={{ rotate: 360 }}
-      transition={{
-        duration: 60,
-        repeat: Infinity,
-        ease: "linear"
-      }}
-    >
+        animate={{ rotate: 360 }}
+        transition={{
+          duration: 60,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+      >
         <Image src={Universe} alt="" className="" />
       </motion.div>
     </main>

@@ -2,6 +2,7 @@ import { aboutSource } from "@/helpers/aboutSource";
 import Image from "next/image";
 import React from "react";
 import classNames from "classnames";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -38,9 +39,9 @@ const About = () => {
                 {element.title}
               </h1>
               <h2 className="md:my-[20px]">{element.description}</h2>
-              <button className=" py-2 px-6 w-[250px] rounded-full  bg-gradient-to-br from-[#8BC2FF] to-[#2D55FF] font-semibold hover:bg-white hover:cursor-pointer">
+              <Link href={element.link} className=" py-2 px-6 w-max rounded-full  bg-gradient-to-br from-[#8BC2FF] to-[#2D55FF] font-semibold hover:bg-white hover:cursor-pointer text-center">
                 {element.action}
-              </button>
+              </Link>
             </article>
           </div>
           {element.overview}
