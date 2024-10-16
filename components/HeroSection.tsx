@@ -2,6 +2,8 @@ import { Universe } from "@/constants/svg";
 import Image from "next/image";
 import React from "react";
 import * as motion from "framer-motion/client";
+import { UniverseImg } from "@/constants/img";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -15,9 +17,9 @@ const HeroSection = () => {
         the world of blockchain, providing education and resources that extend
         beyond Bitcoin.
       </span>
-      <button className="py-2 px-6 rounded-full bg-gradient-to-br from-[#8BC2FF] to-[#2D55FF] font-semibold hover:bg-white hover:cursor-pointer mb-10">
+      <Link href="https://x.com/umojaversepeeps" className="py-2 px-6 rounded-full bg-gradient-to-br from-[#8BC2FF] to-[#2D55FF] font-semibold hover:bg-white hover:cursor-pointer mb-10">
         Join Umojaverse
-      </button>
+      </Link>
       <motion.div
         animate={{ rotate: 360 }}
         transition={{
@@ -26,7 +28,7 @@ const HeroSection = () => {
           ease: "linear",
         }}
       >
-        <Image src={Universe} alt="" className="" />
+        <Image src={UniverseImg} alt="" className="" />
       </motion.div>
     </main>
   );

@@ -38,8 +38,8 @@ export default function Navbar() {
                     className=""
                     src={Logo}
                     alt="Your Company"
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                   />
                 </Link>
                 <div className="hidden lg:ml-6 md:flex justify-center w-full">
@@ -62,9 +62,9 @@ export default function Navbar() {
                   </div>
                 </div>
                 <div className="hidden sm:flex justify-end w-full md:w-max">
-                  <button className="flex items-center justify-around py-2 px-6 w-max font-DM rounded-full bg-[#ffffff1d] border border-[#fff1] text-[#ffffff50] font-semibold hover:bg-white hover:text-black hover:border-aqua hover:cursor-pointer">
+                  <Link href="https://x.com/umojaversepeeps" className="flex items-center justify-around py-2 px-6 w-max font-DM rounded-full bg-[#ffffff1d] border border-[#fff1] text-[#ffffff50] font-semibold hover:bg-white hover:text-black hover:border-aqua hover:cursor-pointer">
                     Join UmojaVerse
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className=" flex items-center sm:hidden">

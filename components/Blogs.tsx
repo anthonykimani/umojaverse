@@ -72,10 +72,10 @@ const Blogs = async () => {
                   <img src={urlFor(blog.authorImageUrl).url()} alt="" className="h-10 w-10 rounded-full bg-gray-100" />
                   <div className="text-sm leading-6">
                     <p className="font-semibold text-white">
-                      <a href={blog.authorName}>
+                      <span>
                         <span className="absolute inset-0" />
                         {blog.authorName}
-                      </a>
+                      </span>
                     </p>
                     <p className="text-gray-600">{blog.authorRole}</p>
                   </div>
